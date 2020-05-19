@@ -14,7 +14,7 @@ open class DropdownController: UIViewController {
   var offsetY: CGFloat = 0
   public internal(set) var showing: Bool = false
   var animating: Bool = false
-  let padding: CGFloat = 20
+  let padding: CGFloat = 40
 
   // MARK: - Initialization
 
