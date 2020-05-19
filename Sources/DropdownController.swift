@@ -11,7 +11,7 @@ open class DropdownController: UIViewController {
   lazy var backgroundView: UIView = self.makeBackgroundView()
   lazy var topLine: CALayer = self.makeTopLine()
 
-  var offsetY: CGFloat = 0
+  var offsetY: CGFloat = 40
   public internal(set) var showing: Bool = false
   var animating: Bool = false
   let padding: CGFloat = 20
