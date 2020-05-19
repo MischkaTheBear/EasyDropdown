@@ -27,7 +27,7 @@ open class TitleView: UIView {
     self.dropdown = dropdown
 
     contentController.action = { [weak self, weak dropdown] index in
-      self?.button.label.text = items[index]
+      self?.button.label.text = items[index] + " Payments"
       self?.action?(index)
       self?.layoutSubviews()
       dropdown?.hide()
