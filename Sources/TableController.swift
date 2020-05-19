@@ -39,6 +39,7 @@ open class TableController: UIViewController, UITableViewDataSource, UITableView
     view.addSubview(topView)
     view.addSubview(tableView)
     tableView.reloadData()
+    tableView.contentInset = UIEdgeInsets(top: 75, left: 0, bottom: 0, right: 0)
   }
 
   // MARK: - Layout
